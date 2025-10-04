@@ -1,0 +1,16 @@
+{
+  "sensitivity": 0.7,
+  "smoothing": 0.3,
+  "mouse_control": true,
+  "system_control": true,
+  "gesture_mappings": {
+    "point": "mouse_move",
+    "fist": "left_click",
+    "open_palm": "scroll",
+    "victory": "right_click",
+    "thumbs_up": "volume_up",
+    "thumbs_down": "volume_down",
+    "pinch": "drag",
+    "ok_sign": "brightness_up"
+  }
+}

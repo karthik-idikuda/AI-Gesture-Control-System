@@ -1,0 +1,6 @@
+2025-09-03 15:58:34,733 - INFO - Gesture detection started
+2025-09-03 15:59:06,655 - INFO - Gesture detection stopped
+2025-09-03 15:59:09,725 - INFO - Gesture detection started
+2025-09-03 15:59:22,856 - INFO - Gesture detection stopped
+2025-09-03 15:59:24,306 - INFO - Settings saved
+2025-09-03 15:59:24,323 - ERROR - Error updating displays: invalid command name ".!frame2.!labelframe2.!labelframe3.!listbox"
