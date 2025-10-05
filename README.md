@@ -131,3 +131,4 @@ You can modify the `gesture_mapper.py` file to customize how gestures are mapped
 
 This project is available for personal use.
 # AI---Gesture-Control-
+# AI-Gesture-Control-System
