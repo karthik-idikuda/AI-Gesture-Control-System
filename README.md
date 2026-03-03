@@ -1,41 +1,110 @@
-# AI Gesture Control System
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff6e96&height=220&section=header&text=AI%20Gesture%20Control%20System&fontSize=42&fontAlignY=35&desc=Machine%20Learning%20/%20AI&descAlignY=55&fontColor=ffffff" alt="Header"/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Type-Machine%20Learning%20%2F%20AI-ff6e96?style=for-the-badge&logo=target&logoColor=black" alt="Type" />
+  <img src="https://img.shields.io/badge/Language-Python-ff6e96?style=for-the-badge&logo=code&logoColor=black" alt="Language" />
+  <img src="https://img.shields.io/badge/Files-12770-161b22?style=for-the-badge&logo=files&logoColor=ff6e96" alt="Files" />
+  <img src="https://img.shields.io/badge/License-PROPRIETARY-ff0000?style=for-the-badge&logo=shield&logoColor=white" alt="License" />
+</p>
+
+  <img src="https://img.shields.io/badge/OpenCV-161b22?style=flat-square&logo=opencv&logoColor=ff6e96" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/TensorFlow-161b22?style=flat-square&logo=tensorflow&logoColor=ff6e96" alt="TensorFlow" />
+
+
+</div>
+
+---
 
 ## Overview
-A sophisticated computer vision system that enables touch-free laptop control using hand gestures. This application utilizes advanced machine learning models to track hand movements in real-time and map them to system commands, offering a futuristic way to interact with your device.
 
-## Features
--   **Cursor Control**: Precision mouse movement using index finger tracking.
--   **Click Operations**: Intuitive gestures for left-click (Fist) and right-click (Victory Sign).
--   **Scroll Navigation**: Smooth scrolling capabilities using Open Palm gestures.
--   **Media Control**: Volume adjustment and media playback control.
--   **Browser Navigation**: Swipe gestures for forward and backward navigation.
+> A machine learning / ai project comprising 12770 integrated source modules, built with Python.
 
-## Technology Stack
--   **Python 3.7+**: Core programming language.
--   **OpenCV**: Real-time computer vision and image processing.
--   **MediaPipe**: Efficient on-device hand tracking.
--   **PyAutoGUI**: Cross-platform GUI automation.
+**AI Gesture Control System** is a proprietary machine learning / ai system engineered by **Karthik Idikuda**. It leverages OpenCV, TensorFlow for its core functionality.
 
-## Usage Flow
-1.  **Initialize**: Launch the application to start the webcam feed.
-2.  **Detect**: The system identifies your hand landmarks.
-3.  **Recognize**: Gestures are classified in real-time.
-4.  **Execute**: Corresponding system actions are performed.
+<br/>
 
-## Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/Nytrynox/Gesture-Control-System.git
+## System Architecture
 
-# Install dependencies
-pip install -r requirements.txt
+```mermaid
+graph TD;
+    A["Data Acquisition Layer"] -->|Raw Input| B["Preprocessing Engine"];
+    B -->|Frames/Images| C["Computer Vision Module<br/>OpenCV / YOLO"];
+    C -->|Features| D{"Neural Network Core"};
+    D -->|TensorFlow| E["Model Training & Evaluation"];
+    E -->|Predictions| F["Output / Results"];
 
-# Run the application
-python main.py
+    classDef ml fill:#0d1117,stroke:#ff6e96,stroke-width:2px,color:#fff;
+    classDef cv fill:#161b22,stroke:#79c0ff,stroke-width:2px,color:#fff;
+    classDef web fill:#21262d,stroke:#56d364,stroke-width:2px,color:#fff;
+    class A,B ml;
+    class C cv;
+    class D,E ml;
+    class F,G web;
 ```
 
-## License
-MIT License
+<br/>
 
-## Author
-**Karthik Idikuda**
+## Project Structure
+
+```
+AI-Gesture-Control-System/
+  .DS_Store
+  .gitattributes
+  FIXES_SUMMARY.md
+  GESTURE_CONTROLS.md
+  GESTURE_GUIDE.md
+  IMPLEMENTATION_COMPLETE.md
+  LICENSE
+  QUICK_START.md
+  README.md
+  README_Pro.md
+  __pycache__/
+    gesture_control_pro.cpython-311.pyc
+    gesture_control_pro.cpython-39.pyc
+  models/
+    gesture_model.pkl
+  utils/
+    __init__.py
+    gesture_mapper.py
+    gesture_recognizer.py
+  venv_brew/
+  venv_fixed/
+  venv_new/
+```
+
+<br/>
+
+## Technical Specifications
+
+| Attribute | Detail |
+|:---|:---|
+| **Primary Language** | `Python` |
+| **Project Category** | `Machine Learning / AI` |
+| **Total Source Files** | `12770` |
+| **Frameworks** | `OpenCV`, `TensorFlow` |
+| **Key Dependencies** | `numpy` | `scikit-learn` | `tensorflow-macos` | `gdown` | `tensorflow` | `pyautogui` | `opencv-python` | `mediapipe` |
+| **Intellectual Property** | `Strictly Proprietary` |
+
+<br/>
+
+## STRICT LEGAL WARNING & LICENSE
+
+> **PROPRIETARY AND CONFIDENTIAL**
+
+This software and all associated documentation are the **exclusive property of Karthik Idikuda**.
+
+- **NO PERMISSION IS GRANTED** to use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this software without explicit, written consent from the author.
+- **UNAUTHORIZED USE WILL RESULT IN SEVERE LEGAL ACTION.** Any individual or organization found using, referencing, or deploying this code without paying the required licensing fees will face immediate litigation, financial penalties, and potentially criminal prosecution where applicable by law.
+- **TO OBTAIN A LEGAL LICENSE**, you must directly contact Karthik Idikuda to negotiate payment terms.
+
+*By accessing this repository, you acknowledge and accept these strict proprietary terms.*
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=18&pause=1000&color=FF6E96&center=true&vCenter=true&width=535&lines=Engineered+by+Karthik+Idikuda;Machine+Learning+%2F+AI+Architecture;Strict+Proprietary+License" alt="Typing SVG" />
+</div>
+
+<!-- TRACKING: S0ktQUktR2VzdHVyZS1Db250cm9sLVN5c3RlbS1UUkFDSw== -->
